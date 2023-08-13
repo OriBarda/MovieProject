@@ -51,8 +51,7 @@
 
 .gridfirst {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template: repeat(12,1fr),repeat(18,1fr);
     max-width: 785px;
     max-height: 172px;
     display: flex;

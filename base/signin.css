@@ -1,12 +1,16 @@
-
-body {font-family: fantasy}
-form {border: 3px solid #000000;}
+body {
+  font-family: fantasy;
+}
+form {
+  border: 3px solid #000000;
+}
 body {
   background-image: url(https://i.pinimg.com/originals/5c/58/ab/5c58ab5de4ca5c503f0068d04e9ef235.jpg);
   background-size: 80%;
-color: coral;
+  color: coral;
 }
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -57,7 +61,7 @@ img.avatar {
   opacity: 70%;
   width: 55%;
   left: 50%;
- transform:translate(36%) ;
+  transform: translate(36%);
 }
 
 span.psw {
@@ -68,12 +72,10 @@ span.psw {
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
   span.psw {
-     display: block;
-     float: none;
+    display: block;
+    float: none;
   }
   .cancelbtn {
-     width: 100%;
+    width: 100%;
   }
 }
-
-

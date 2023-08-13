@@ -119,7 +119,7 @@ h1 {
 
   .button {
     width: 120px;
-
+    height: auto;
   }
   .ul_1 {
     display: flex;

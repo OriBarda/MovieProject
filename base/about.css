@@ -1,43 +1,47 @@
-body, h1, h2, p, img {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Center content vertically and horizontally */
-  .about-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f4f4f4;
-  }
-  
-  /* Style the content container */
-  .about-content {
-    text-align: center;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style the profile image */
-  .about-content img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-  }
-  
-  /* Style the heading */
-  .about-content h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  /* Style the description */
-  .about-content p {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.5;
-  }
+body,
+h1,
+h2,
+p,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center content vertically and horizontally */
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Style the content container */
+.about-content {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the profile image */
+.about-content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Style the heading */
+.about-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Style the description */
+.about-content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}

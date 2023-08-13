@@ -5,7 +5,6 @@
   background-image: url(https://i.pinimg.com/originals/5c/58/ab/5c58ab5de4ca5c503f0068d04e9ef235.jpg);
   background-attachment: fixed;
   background-size: 80%;
-  width: auto;
 }
 
 .ul_1 {
@@ -67,7 +66,7 @@
   cursor: pointer;
   font-size: 3vw;
   font-family: "Movies", sans-serif;
-  letter-spacing: 1vw;
+  letter-spacing: 0.5;
 }
 
 .btn:hover {
@@ -136,7 +135,11 @@
     background-image: url(https://i.pinimg.com/originals/5c/58/ab/5c58ab5de4ca5c503f0068d04e9ef235.jpg);
     background-attachment: fixed;
     background-size: cover;
-    width: auto;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .ul_1 {
@@ -161,6 +164,7 @@
     border-radius: 10px;
     transition: width 0.5s;
     font-style: "Movies", sans-serif;
+    padding: 5px;
   }
 
   .fa-search {
@@ -173,9 +177,9 @@
     border: none;
     border-radius: 100%;
     cursor: pointer;
-    font-size: 6vw;
+    font-size: 3vw;
     font-family: "Movies", sans-serif;
-    letter-spacing: 2vw;
+    letter-spacing: 1vw;
   }
 
   .div_1 {

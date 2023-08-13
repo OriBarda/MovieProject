@@ -42,7 +42,7 @@ h1 {
   margin: 30px 0;
   border-radius: 30px;
   text-transform: capitalize;
-transition: all 0.5s;
+  transition: all 0.5s;
   box-shadow: 0 10px 16px 1px rgb(255, 0, 0);
 }
 .go-home:hover {
@@ -71,7 +71,7 @@ transition: all 0.5s;
   font-weight: 600;
 }
 
-@media (min-width:360px) {
+@media (min-width: 360px) {
   h1 {
     font-size: 4.5em;
   }
@@ -83,7 +83,7 @@ transition: all 0.5s;
   }
 }
 
-@media (min-width:600px) {
+@media (min-width: 600px) {
   .content {
     max-width: 1000px;
     margin: 0 auto;
@@ -101,16 +101,16 @@ transition: all 0.5s;
     color: white;
     text-align: center;
     padding: 10px;
-}
+  }
 
-footer img {
+  footer img {
     margin: 0 5px;
     width: 20px;
     height: 20px;
-}
+  }
 
-hr {
+  hr {
     border: 1px solid #ff0000;
     margin: 10px 0;
-}
+  }
 }
